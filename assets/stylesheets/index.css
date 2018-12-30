@@ -1,0 +1,158 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bar {
+  list-style: none;
+  padding: 0px;
+  background: linear-gradient(to bottom, rgb(115, 115, 115) 50%, rgb(100, 100, 100) 50%, rgb(120, 120, 120) 99%);
+  border-radius: 5px;
+  width: 965.8px;
+  margin: 20px auto;
+}
+
+.bar li {
+  height: 40px;
+  width: 102.6px;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .1), 0, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0) 100%);
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 14.5px;
+  line-height: 36px;
+  margin: -1.5px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-shadow: 0 2px 3px #333;
+  text-shadow: 0 -1px 1px #333;
+  font-weight: 500;
+}
+
+.bar li:hover {
+  opacity: 0.6;
+  color: black;
+  text-shadow: none;
+}
+
+.bar li img {
+  width: 15px;
+  height: 20px;
+  vertical-align: text-bottom;
+}
+
+.bar .in {
+  width: auto;
+}
+
+input {
+  border-radius: 50px;
+  margin: 0 10px 0 10px;
+  border-style: none;
+  width: 120px;
+  box-shadow: 0px 0.5px 3px black inset;
+  vertical-align: -3.5px;
+  background: transparent url("../img/search.png") 5px 3px no-repeat;
+  background-size: 16px;
+  padding-left: 25px;
+  height: 23px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(364px, 1fr));
+  grid-template-rows: 1fr 200px;
+  grid-gap: 0px 1px;
+}
+
+.main-cover {
+  background: url("../img/your_verse_hero.jpg") 0px -830px no-repeat;
+  grid-column: 1/-1;
+  background-size: cover;
+  max-width: 100%;
+  height: 560px;
+  text-align: center;
+}
+
+.s1 {
+  background: url("../img/promo_iphone5s.jpg");
+}
+
+.s2 {
+  background: url("../img/promo_iphone5c.jpg");
+}
+
+.s3 {
+  background: url("../img/promo_30_years.jpg");
+}
+
+.s4 {
+  background: url("../img/promo_supplier_responsibility.jpg");
+}
+
+.s {
+  background-size: cover;
+}
+
+.slogan-container {
+  margin-top: 110px;
+}
+
+.slogan {
+  color: white;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.slogan-large {
+  font-size: 70px;
+}
+
+.slogan-medium {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.slogan-small {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.slogan-small:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: gray;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #08c;
+}
+
+.bot-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.bot-list li {
+  display: inline-block;
+  margin-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid gray;
+}
+
+#flag {
+  border-right: none;
+}
+
+#flag img {
+  vertical-align: text-bottom;
+}
