@@ -11,23 +11,24 @@ body {
   border-radius: 5px;
   width: 965.8px;
   margin: 20px auto;
+  height: 36px;
 }
 
 .bar li {
-  height: 40px;
   width: 102.6px;
   background-image: linear-gradient(180deg, rgba(255, 255, 255, .1), 0, rgba(255, 255, 255, 0.1) 50%, transparent 50%, rgba(255, 255, 255, 0) 100%);
   text-align: center;
   display: inline-block;
   color: white;
   font-size: 14.5px;
-  line-height: 36px;
+  line-height: 36.2px;
   margin: -1.5px;
   letter-spacing: 0.5px;
   font-weight: bold;
   text-shadow: 0 2px 3px #333;
   text-shadow: 0 -1px 1px #333;
   font-weight: 500;
+  height: 100%;
 }
 
 .bar li:hover {
@@ -37,26 +38,28 @@ body {
 }
 
 .bar li img {
+  position: relative;
+  top: 4px;
   width: 15px;
   height: 20px;
-  vertical-align: text-bottom;
 }
 
 .bar .in {
   width: auto;
+  height: 100%;
 }
 
 input {
   border-radius: 50px;
-  margin: 0 10px 0 10px;
+  margin: 5px 10px 0 10px;
   border-style: none;
   width: 120px;
   box-shadow: 0px 0.5px 3px black inset;
-  vertical-align: -3.5px;
   background: transparent url("../img/search.png") 5px 3px no-repeat;
   background-size: 16px;
   padding-left: 25px;
   height: 23px;
+  vertical-align: -0.5px;
 }
 
 .content {
@@ -132,7 +135,7 @@ footer {
   text-align: center;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #08c;
 }
